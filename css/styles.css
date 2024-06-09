@@ -1,0 +1,105 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+*{
+    margin: 0;
+}
+body{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.header{
+    height: 800px;
+    background-color: #FD6E0A;
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.banner{
+    max-width: 500px;
+    float:right;
+    /* padding: 150px 140px 70px 80px; */
+    padding: 250px 250px 150px 150px ;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: right;
+}
+.banner-exp{
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: right;
+    color: rgb(119, 116, 116);
+}
+.contact-btn{
+    align-tracks: right;
+    float: right;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+}
+
+.container{
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.failures{
+    display: flex;
+    margin-top: 150px;
+
+}
+.failure-title{
+    font-size: 40px;
+}
+.failure-exp{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.points{
+    margin-top: 20px;   
+    line-height: 20px;
+}
+.reaction{
+padding-right: 200px;
+}
+.previous-failures{
+    max-height: 900px;
+    align-content: center;
+  
+}
+.plans-title{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.plan{
+    
+}
+.plan-name{
+    font-size: 32px;
+}
+.exp{
+    font-size: 20px;
+}
+
+.contact{
+    margin-top: 150px;
+}
