@@ -50,7 +50,7 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1150px;
     align-items: center;
     margin: 0 auto;
 }
@@ -89,9 +89,12 @@ padding-right: 200px;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    gap: 10px;
 }
 .plan{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .plan-name{
     font-size: 32px;
@@ -99,7 +102,51 @@ padding-right: 200px;
 .exp{
     font-size: 20px;
 }
-
+.call-option{
+    height: 250px;
+    margin-top: 50px;
+}
+.watch-img{
+    position: absolute;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.shade{
+    position: absolute;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
 .contact{
+    position: absolute;
+    padding: 40px;
+}
+.mindset-title{
+    font-size: 40px;
+    color: white;
+}
+.call-btn{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: #FD6E0A;
+}
+.footer{
+    display: flex;
     margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 500px;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-right{
+
 }
